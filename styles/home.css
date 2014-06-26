@@ -10,7 +10,7 @@ a {
 .bold { font-weight: bold; }
 .line-break { height: 5px; }
 .prof { 
-    content:url("images/pizzahat.jpg");
+    content:url("../images/pizzahat.jpg");
     height:300px; 
 	width:210px;
 }
