@@ -1,13 +1,26 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+  /* this piece of code is somewhat iffy. is there something better? */
 }
 
 a {
   color: #00B7FF;
 }
 
-.bold { font-weight: bold; }
+.bold {
+	font-weight: bold;
+}
+
+.bold-header { 
+	font-weight: bold; 
+	margin-bottom: -10px;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+
 .line-break { height: 5px; }
 .triple-line-break { height: 15px; }
 
@@ -22,6 +35,56 @@ a {
 	width:35px;
 }
 
-#objective-statement {
-	width: 500px;
+
+#objective-bold-header {
+	margin-bottom: 15px;
+}
+
+#i-am-a {
+	margin-bottom: -5px;
+}
+
+#objective-statement-list li {
+	padding-bottom: 9px;
+}
+
+
+/* portfolio page */
+.portfolio-img {
+	width: 75%;
+	margin-left: 10%;
+	margin-bottom: 70px;
+	border: 2px solid black;
+}
+
+.portfolio-small-img {
+	width: 35%;
+	margin-left: 30%;
+	margin-bottom: 70px;
+	border: 2px solid black;
+}
+
+.table-of-content {
+	margin-bottom: -10px;
+	margin-left: 30px;
+}
+
+.portfolio-section-line-break {
+	margin-bottom: 70px;
+}
+
+.portfolio-section-half-line-break {
+	margin-bottom: 35px;
+}
+
+.portfolio-note {
+	font-style: italic;
+	font-size: 13px;
+	margin-left: 50px;
+}
+
+.back-button {
+	height:35px;
+	width:35px;
+	content:url("../images/back-button.png");
 }
