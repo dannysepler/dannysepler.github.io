@@ -25,13 +25,13 @@ a {
 .triple-line-break { height: 15px; }
 
 #prof { 
+    content:url("../images/website-picture.jpg");
 	border: 2px solid black;
-	content:url("../images/website-hover-picture.jpg");
     height:400px; 
 }
 
 #prof:hover {
-    content:url("../images/website-picture.jpg");
+	content:url("../images/website-hover-picture.jpg");
 }
 
 .back-button {
