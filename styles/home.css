@@ -1,13 +1,31 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url('../images/backgrounds/concrete_seamless.png');
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+
+  /* used to have minimalist background. will maybe return to this. */
+  /* background-image: url(../images/backgrounds/concrete_seamless.png); */
 
   /* this piece of code is somewhat iffy. is there something better? */
 }
 
+/* center everything */
+* {
+	margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+
+
+
+p, li {
+	color: white;
+}
+
 a {
-  color: #0056ff;
+  color: #00b4ff;
 }
 
 .bold {
@@ -17,17 +35,20 @@ a {
 .bold-header { 
 	font-weight: bold; 
 	margin-bottom: -10px;
-	font-size: 14px;
+	font-size: 19px;
 	margin-top: 20px;
 }
 
 
-.line-break { height: 5px; }
-.triple-line-break { height: 15px; }
+.line-break { height: 10px; }
+.triple-line-break { height: 25px; }
 
 #prof { 
+	margin-top: 60px;
+    margin-bottom: 60px;
+
     content:url("../images/website-picture.jpg");
-	border: 2px solid black;
+	border: 5px solid white;
     height:400px; 
 }
 
@@ -84,7 +105,7 @@ a {
 
 .portfolio-note {
 	font-style: italic;
-	font-size: 13px;
+	font-size: 18px;
 	margin-left: 50px;
 }
 

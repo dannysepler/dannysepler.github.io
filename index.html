@@ -12,58 +12,77 @@
       <link rel='shortcut icon' href='images/shortcut_icon.png'>
 
 		<!--links-->
+    <link rel='stylesheet' href='styles/blur-image.css'>
 		<link rel='stylesheet' href='styles/home.css'>
 
-		<!--scripts-->
-		<script src='scripts/home.js'></script>
 	</head>
 
 	<body style="background-image: url('images/backgrounds/concrete_seamless.png')">
+    
+    <div id='blurred-image-container'>
+        <div class="img-src"></div>
+        <div class="img-src blurred-image"></div>
+    </div>
+
 		<img id='prof' />
 
-    <p class='bold'># danny sepler</p>
+    <p class='bold'># Danny Sepler</p>
   		<a href='mailto:dannysepler@gmail.com'>dannysepler@gmail.com</a>
-  		<p>new york, ny</p>
+  		<p>New York, NY</p>
 		  <div class='triple-line-break'></div>
-
-
-
-
-      <p class='bold-header' id='objective-bold-header'>## objective statement</p>
-      <p id='i-am-a'>i'm a...</p>
-      <ul id='objective-statement-list'>
-
-        <li>software engineer for 
-              <a href='http://www.americanexpress.com' target='_blank'>
-              american express</a>
-        </li>
-
-        <li>from the 
-              <a href='http://www.ufl.edu/' target='_blank'>
-              university of florida</a> 
-              (go gators!)
-        </li>
-      </ul>
       <div class='triple-line-break'></div>
 
 
 
-  	  <p class='bold-header'> ## for employers</p>
-		  <p>~  <a href="myresume.pdf" target='_blank'>
+
+      <p class='bold-header' id='objective-bold-header'>## Objective Statement</p>
+      <div class='line-break'></div>
+      <p id='i-am-a'>I am a...</p>
+      <!--<ul id='objective-statement-list'>-->
+        <div class='triple-line-break'></div>
+
+        <p>Software Engineer for 
+              <a href='http://www.americanexpress.com' target='_blank'>
+              American Express</a>
+        </p>
+
+        <p>from the 
+              <a href='http://www.ufl.edu/' target='_blank'>
+              University of Florida</a> 
+              (Go Gators!)
+        </p>
+      <!--</ul>-->
+      <div class='triple-line-break'></div>
+
+
+
+  	  <p class='bold-header'> ## For Employers</p>
+      <div class='triple-line-break'></div>
+		  
+      <p>~  <a href="myresume.pdf" target='_blank'>
             resume</a></p> 
-      <p>~  <a href="projects/index.html" target='_blank'>
-            portfolio</a></p> 
       <p>~  <a href="http://github.com/dannysepler" target='_blank'>
             github</a></p> 
       <div class='triple-line-break'></div>
 
 
 
-  		<p class='bold-header'>## about me</p>
+  		<p class='bold-header'>## About Me</p>
+      <div class='triple-line-break'></div>
+
       <p>~ 
           <a href="https://soundcloud.com/danny-sepler" target='_blank'>
-          music</a>
+          Music</a>
       </p>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+
+
+    <!--scripts-->
+    <script src='scripts/jquery-3.1.0.min.js'></script>
+    <script src='scripts/blur-image.js'></script>
+    <script src='scripts/home.js'></script>
+
 
     </body>
 </html>
