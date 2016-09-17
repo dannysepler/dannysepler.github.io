@@ -1,12 +1,13 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('../images/backgrounds/concrete_seamless.png');
 
   /* this piece of code is somewhat iffy. is there something better? */
 }
 
 a {
-  color: #00B7FF;
+  color: #0056ff;
 }
 
 .bold {
