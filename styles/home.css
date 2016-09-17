@@ -78,21 +78,18 @@ a {
 /* portfolio page */
 .portfolio-img {
 	width: 75%;
-	margin-left: 10%;
 	margin-bottom: 70px;
 	border: 2px solid black;
 }
 
 .portfolio-small-img {
 	width: 35%;
-	margin-left: 30%;
 	margin-bottom: 70px;
 	border: 2px solid black;
 }
 
 .table-of-content {
 	margin-bottom: -10px;
-	margin-left: 30px;
 }
 
 .portfolio-section-line-break {
@@ -113,4 +110,9 @@ a {
 	height:35px;
 	width:35px;
 	content:url("../images/back-button.png");
+}
+
+.container {
+	width: 90%;
+    max-width: 700px;
 }

@@ -11,15 +11,45 @@
   		<meta property="og:image" content="http://dannysepler.github.io/images/pizzahat.jpg" />
       <link rel='shortcut icon' href='../images/shortcut_icon.png'>
 
-  		<!--link-->
-  		<link rel='stylesheet' href='../styles/home.css'>
-  		<link rel='stylesheet' href='../styles/writing.css'>
+      <!--link-->
+      <link rel='stylesheet' href='../styles/blur-image.css'>
+      <link rel='stylesheet' href='../styles/home.css'>
+      <link rel='stylesheet' href='../styles/writing.css'>
+
 
   		<!--script-->
 
   	</head>
 
   	<body>
+
+             <!-- the background -->
+      <div id='blurred-image-container'>
+          <div class="img-src"></div>
+          <div class="img-src blurred-image"></div>
+      </div>
+
+
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+      <div class='triple-line-break'></div>
+
+      <a href='index.html'><img class='back-button'/></a>
+      <div class='triple-line-break'></div>
+
+
+      
       <p>DESCRIPTION.</p>
       <p>(non-technical) Eatable was a startup company I worked at from July 2013 to February 2014. The goal of the company was to provide a service to create more tailored food recommendations. We dubbed it, "The Pandora of Food." During my time there, the idea was in a constant state of flux, and as a result so was the software. The following is one implementation.</p>
       <p>(technical) The eatable webapp was a nodejs application, with express used as a visual. it was also coded using bootstrap and jade (the node equivalent to HTML). It communicated with a server API and had a number of functions, including....
@@ -45,5 +75,9 @@
   		<a href='index.html'>
   			<img src='../images/back-button.png' class='back-button' style='height:35px;width:35px;' />
   		</a>
+
+      <!--scripts-->
+      <script src='../scripts/jquery-3.1.0.min.js'></script>
+      <script src='../scripts/blur-image.js'></script>
   	</body>
 </html>
