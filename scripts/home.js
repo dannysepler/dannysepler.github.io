@@ -6,3 +6,8 @@ $( "#resume-plus" ).click(function() {
   var text = $(this).text();
   $(this).text(text == "(+)" ? "(-)" : "(+)");
 });
+
+$( '#go-gators' ).hover(function() {
+	$(' #go' )	  .toggleClass('go-gators-orange');
+	$(' #gators' ).toggleClass('go-gators-blue');
+});
