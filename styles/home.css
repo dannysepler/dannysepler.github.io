@@ -20,7 +20,7 @@ body {
 
 
 
-p, li, h2, h3 {
+p, li, h2, h3, i {
 	color: white;
 }
 
@@ -101,6 +101,14 @@ img {
 .table-of-content-container {
 	margin-bottom: -10px;
 	font-weight: bold;
+}
+
+#show-resume-here {
+	display: none;
+	/* default behavior */
+	
+	height: 500px;
+	border: 1px solid #666;
 }
 
 .portfolio-section-line-break {
