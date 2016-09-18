@@ -20,7 +20,7 @@ body {
 
 
 
-p, li {
+p, li, h2, h3 {
 	color: white;
 }
 
@@ -94,8 +94,13 @@ img {
 	border: 2px solid black;
 }
 
-.table-of-content {
+#table-of-contents {
+
+}
+
+.table-of-content-container {
 	margin-bottom: -10px;
+	font-weight: bold;
 }
 
 .portfolio-section-line-break {
