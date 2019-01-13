@@ -103,6 +103,10 @@ img {
 	font-weight: bold;
 }
 
+#resume-plus {
+	cursor: pointer;
+}
+
 #show-resume-here {
 	display: none;
 	/* default behavior */
@@ -159,10 +163,30 @@ img {
 	font-size: 13px;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 .go-gators-orange {
 	color: orange;
 }
 
 .go-gators-blue {
 	color: #0056ff;
+}
+
+.amex-blue {
+	color: #016fd0;
+}
+
+.fh-purple {
+	color: #5051DB;
+}
+
+.fh-blue {
+	color: #3887F7;
+}
+
+.italic {
+	font-style: italic;
 }
