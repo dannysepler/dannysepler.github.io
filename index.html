@@ -9,12 +9,12 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://dannysepler.github.io" />
 
-    <meta property="og:title" content="Danny Sepler's Website" />
+    <meta property="og:title" content="Danny Sepler | Website" />
     <meta property="og:site_name" content="Danny Sepler" />
     <meta property="og:description" content="Check out my coding, music, writing, and pictures with pizza" />
     <meta property="og:image" content="http://dannysepler.github.io/images/pizzahat.jpg" />
 
-    <link rel='shortcut icon' href='images/shortcut_icon.png'>
+    <link rel='shortcut icon' href='images/me.png'>
 
     <!--links-->
     <link rel='stylesheet' href='styles/blur-image.css'>
@@ -23,10 +23,9 @@
 	</head>
 
 	<body>
-    
     <div id='blurred-image-container'>
-        <div class="img-src"></div>
-        <div class="img-src blurred-image"></div>
+        <div class="img-src shadow"></div>
+        <div class="img-src blurred-image shadow"></div>
     </div>
 
 		<img id='prof' />
@@ -61,7 +60,10 @@
     <div class='triple-line-break'></div>
 
     <span id='flatiron-health'>
-    <p>- Nov '18 to Present: 
+    <p>- Nov '18 to Present:
+      <img src='images/flatiron.svg'
+           id='flatiron-img'
+           class='svg no-shadow invisible' />
       <span id='fh-name' class='italic'>
         <span id='flatiron'>
           Flatiron
@@ -75,6 +77,9 @@
 
     <span id='american-express'>
     <p>- Aug '16 to Nov '18: 
+      <img src='images/amex.svg'
+           id='amex-img'
+           class='svg no-shadow invisible' />
       <span id='amex-name' class='italic'>
         <span id='american'>
           American
@@ -88,6 +93,9 @@
 
     <span id='go-gators'>
     <p>- Aug '16: 
+      <img src='images/gator.svg'
+           id='gator-img'
+           class='svg no-shadow invisible' />
       <span id='go-gators-name' class='italic'>
         <span id='go'>
           Graduated from UF
